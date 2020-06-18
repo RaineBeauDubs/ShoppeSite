@@ -41,6 +41,7 @@ function App() {
           <a href="https://www.facebook.com/RainyDayResale">Come check us out on Facebook!</a>
           <FontAwesomeIcon className="icon" icon={faUmbrella} />
         </div>
+        <img className="umbPic" src="/images/RDRUmbrellas.png" alt="A few of our gorgeous Galleria Umbrellas!" />
       </div>
     </div>
   );

@@ -6,6 +6,8 @@
 
 .trainPic {
   width: 1065px;
+  margin-top: 5rem;
+  border-radius: 1rem;
 }
 
 .colorHeader {
@@ -44,10 +46,15 @@ p {
 
 .facebook {
   font-size: 1.3rem;
-  margin: 1.5rem
+  margin: 2.3rem
 }
 
 .facebook a {
   margin: 0 0.7rem;
   color: black;
+}
+
+.umbPic {
+  width: 1065px;
+  border-radius: 1rem;
 }
