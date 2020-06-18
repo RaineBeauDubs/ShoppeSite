@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './components/navigation/Navigation';
+import Footer from './components/footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebookSquare
@@ -16,8 +17,6 @@ function App() {
       <div className="homeContainer">
         <img className="trainPic" src="/images/RDRGoodTrainPic.png" alt="Trains run through Main Street an average of 30 times a day!" />
         <h1 className="colorHeader">Rainy Day Resale</h1>
-        {/* <p>WE ARE REOPENED AND DOING OUR BEST TO KEEP YOU SAFE WHILE SHOPPING!</p>
-        <p>PLEASE COME SEE US SOON!</p> */}
         <div className="alertBox">
           <p className="alert">We are reopened and doing our best to keep you safe while shopping!</p>
           <p className="alert">Please come see us soon, we've missed you!</p>
@@ -43,6 +42,7 @@ function App() {
         </div>
         <img className="umbPic" src="/images/RDRUmbrellas.png" alt="A few of our gorgeous Galleria Umbrellas!" />
       </div>
+      <Footer />
     </div>
   );
 }
