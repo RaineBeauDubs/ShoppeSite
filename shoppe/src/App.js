@@ -1,5 +1,12 @@
 import React from 'react';
 import Navigation from './components/navigation/Navigation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faFacebookSquare
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faUmbrella
+} from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 function App() {
@@ -30,7 +37,9 @@ function App() {
         <p>Come check out our amazing selection of misses, plus-size and juniors clothing and accessories.</p>
         <p>We offer fabulous prices on the brands you love! New items arriving daily.</p>
         <div className="facebook">
+          <FontAwesomeIcon className="icon" icon={faFacebookSquare} />
           <a href="https://www.facebook.com/RainyDayResale">Come check us out on Facebook!</a>
+          <FontAwesomeIcon className="icon" icon={faUmbrella} />
         </div>
       </div>
     </div>

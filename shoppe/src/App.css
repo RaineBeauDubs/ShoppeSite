@@ -41,3 +41,13 @@ p {
 .hours li {
   margin-bottom: 0.3rem
 }
+
+.facebook {
+  font-size: 1.3rem;
+  margin: 1.5rem
+}
+
+.facebook a {
+  margin: 0 0.7rem;
+  color: black;
+}
