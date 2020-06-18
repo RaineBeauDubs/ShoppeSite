@@ -1,8 +1,4 @@
 import React from 'react';
-import Navigation from './components/navigation/Navigation';
-import Home from './components/home/Home';
-import Footer from './components/footer/Footer';
-import { Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faFacebookSquare
@@ -10,20 +6,11 @@ import {
 import {
   faUmbrella
 } from '@fortawesome/free-solid-svg-icons';
-import './App.css';
+import './home.css';
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <div className="navContainer">
-        <Navigation />
-      </div>
-      <Route 
-        path="/"
-        component={Home}
-        exact
-      />
-      {/* <div className="homeContainer">
+      <div className="homeContainer">
         <img className="trainPic" src="/images/RDRGoodTrainPic.png" alt="Trains run through Main Street an average of 30 times a day!" />
         <h1 className="colorHeader">Rainy Day Resale</h1>
         <div className="alertBox">
@@ -50,10 +37,8 @@ function App() {
           <FontAwesomeIcon className="icon" icon={faUmbrella} />
         </div>
         <img className="umbPic" src="/images/RDRUmbrellas.png" alt="A few of our gorgeous Galleria Umbrellas!" />
-      </div> */}
-      <Footer />
-    </div>
+      </div>
   );
 }
 
-export default App;
+export default Home;
