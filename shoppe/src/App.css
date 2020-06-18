@@ -7,3 +7,9 @@
 .trainPic {
   width: 1065px;
 }
+
+.colorHeader {
+  color: rgb(174, 64, 165);
+  font-size: 2rem;
+  font-weight: bold;
+}
