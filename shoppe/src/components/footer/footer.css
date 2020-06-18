@@ -1,0 +1,30 @@
+.footer {
+  color: white;
+  background: black;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.footer li {
+  font-size: 1.rem;
+  margin: 0.2rem;
+}
+
+.footerLeft {
+  text-align: left;
+}
+
+.footerRight {
+  text-align: right;
+}
+
+.logo {
+  height: 8.5rem;
+  border-radius: 1rem;
+}

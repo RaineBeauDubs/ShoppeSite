@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+}
+
+.navContainer {
   max-width: 1065px;
   margin: 0 auto;
 }
@@ -20,7 +23,7 @@
 
 p {
   font-size: 1.3rem;
-  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .homeContainer li {
@@ -58,5 +61,5 @@ p {
 .umbPic {
   width: 1065px;
   border-radius: 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0;
 }
