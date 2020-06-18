@@ -8,6 +8,7 @@
   width: 1065px;
   margin-top: 5rem;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .colorHeader {
@@ -57,4 +58,5 @@ p {
 .umbPic {
   width: 1065px;
   border-radius: 1rem;
+  margin: 0.5rem;
 }
