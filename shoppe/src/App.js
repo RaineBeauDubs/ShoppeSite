@@ -13,7 +13,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <div className="navContainer">
+        <Navigation />
+      </div>
       <div className="homeContainer">
         <img className="trainPic" src="/images/RDRGoodTrainPic.png" alt="Trains run through Main Street an average of 30 times a day!" />
         <h1 className="colorHeader">Rainy Day Resale</h1>
