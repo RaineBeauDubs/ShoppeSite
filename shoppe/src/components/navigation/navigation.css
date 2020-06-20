@@ -18,10 +18,10 @@
 }
 
 .navLink {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-decoration: none;
   color: grey;
-  margin-left: 2.5rem;
+  margin-left: 1.5rem;
 }
 
 .navLink:hover {

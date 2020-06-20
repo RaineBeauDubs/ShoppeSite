@@ -8,18 +8,27 @@ const Navigation = () => {
       <h1>Rainy Day Resale</h1>
       <div className="nav">
         <NavLink className="navLink" to="/">
+          <h3>Home</h3>
+        </NavLink>
+        <NavLink className="navLink" to="/ladies">
           <h3>Ladies</h3>
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/juniors">
           <h3>Juniors</h3>
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/accessories">
           <h3>Accessories</h3>
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/studio">
+          <h3>Studio</h3>
+        </NavLink>
+        <NavLink className="navLink" to="/consignors">
           <h3>Consignors</h3>
         </NavLink>
-        <NavLink className="navLink" to="/">
+        <NavLink className="navLink" to="/community">
+          <h3>Community</h3>
+        </NavLink>
+        <NavLink className="navLink" to="/contact">
           <h3>Contact Us</h3>
         </NavLink>
       </div>

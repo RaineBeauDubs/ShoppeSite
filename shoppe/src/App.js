@@ -18,6 +18,7 @@ function App() {
       <div className="navContainer">
         <Navigation />
       </div>
+      <div className="navSpace"></div>
       <Route 
         path="/"
         component={Home}
