@@ -4,19 +4,24 @@
 }
 
 .ladiesFlexContainer {
-
+  display: flex;
 }
 
-.lafiesFlexLeft {
-
+.ladiesFlexLeft {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
 }
 
 .ladiesFlexRight {
-  
+  width: 49%;
 }
 
 .brandLogo {
-
+  width: 12rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 0.3rem solid rgb(174, 64, 165);
 }
 
 .logoLeft {
@@ -24,5 +29,5 @@
 }
 
 .logoRight {
-
+  justify-content: right;
 }
