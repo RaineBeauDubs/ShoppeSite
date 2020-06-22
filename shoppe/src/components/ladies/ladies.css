@@ -22,12 +22,13 @@
   height: 4rem;
   border-radius: 1rem;
   border: 0.3rem solid rgb(174, 64, 165);
+  margin: 0.3rem;
 }
 
 .logoLeft {
-
+margin-left: 15%
 }
 
 .logoRight {
-  justify-content: right;
+  margin-left: 47%;
 }
