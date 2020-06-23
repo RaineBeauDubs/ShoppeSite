@@ -1,0 +1,27 @@
+.juniorsContainer {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.jrBrands {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 2rem 0
+}
+
+.jrMid {
+  display: flex;
+  box-sizing: border-box;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.jrImg {
+  border-radius: 1rem;
+  width: 17rem;
+}
+
+.jrMidText {
+  margin: 5rem;
+}

@@ -35,6 +35,7 @@ function Juniors() {
         />
         <div className="jrMidText">
           <p>For Juniors, we offer brands such as Abercrombie, Victoria's Secret, Hollister, Juicy Couture, Lucky Brand, and Wet Seal. We have a great selection of jeans and t-shirts as well as summer dresses, shorts, tanks, etc. </p>
+          <p>Come find your new favorite outfit!</p>
         </div>
         <img
           className="jrImg"
