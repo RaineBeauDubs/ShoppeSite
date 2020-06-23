@@ -4,7 +4,7 @@ import './contact.css';
 function Contact() {
   return (
     <div className="contactContainer">
-      <p>I will be the Contact page! :D</p>
+      <h2 className="colorHeader">Get In Touch!</h2>
     </div>
   );
 }

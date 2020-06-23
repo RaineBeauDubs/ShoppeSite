@@ -4,7 +4,7 @@ import './studio.css';
 function Studio() {
   return (
     <div className="studioContainer">
-      <p>I will be the Studio page! :D</p>
+      <h2 className="colorHeader">Utopia Studio</h2>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import './accessories.css';
 function Accessories() {
   return (
     <div className="accessoriesContainer">
-      <p>I will be the Accessories page! :D</p>
+      <h2 className="colorHeader">Accessories</h2>
     </div>
   );
 }

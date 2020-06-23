@@ -4,7 +4,7 @@ import './consignors.css';
 function Consignors() {
   return (
     <div className="consignorsContainer">
-      <p>I will be the Consignors page! :D</p>
+      <h2 className="colorHeader">Interested In Consigning With Us?</h2>
     </div>
   );
 }
