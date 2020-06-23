@@ -42,9 +42,11 @@ function Ladies() {
             src="/images/LLogoWHBM.png" 
             alt="White House | Black Market" 
           />
+          <img className="lWidePic" src="/images/LPicWide.png" alt="Our ladies section is guaranteed to have pieces you'll love!" />
         </div>
         <div className="ladiesFlexRight">
-          <p>Our ladies sizes run from x-small to 3x and sometimes larger, depending on what we get in. We carry popular ladies brands including Chicos, Land's End, White House Black Market, Coldwater Creek, Lane Bryant, Talbots, and many more!</p>
+          <p className="ladiesDesc">Our ladies sizes run from X-Small through 3X and sometimes larger, depending on what we get in. We carry all of your favorite ladies brands including Chicos, Land's End, White House Black Market, Coldwater Creek, Lane Bryant, Talbots, and many more!</p>
+          <img className="lTallPic" src="/images/LPicTall.png" alt="Our ladies section is guaranteed to have pieces you'll love!" />
         </div>
       </div>
     </div>
