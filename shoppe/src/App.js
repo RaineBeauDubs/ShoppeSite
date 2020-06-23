@@ -1,13 +1,15 @@
 import React from 'react';
 import Navigation from './components/navigation/Navigation';
+import Home from './components/home/Home';
+import Ladies from './components/ladies/Ladies';
+import Juniors from './components/juniors/Juniors';
+import Accessories from './components/accessories/Accessories';
+import Studio from './components/studio/Studio';
+import Consignors from './components/consignors/Consignors';
+import Community from './components/community/Community';
+import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faFacebookSquare
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  faUmbrella
-} from '@fortawesome/free-solid-svg-icons';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -16,34 +18,41 @@ function App() {
       <div className="navContainer">
         <Navigation />
       </div>
-      <div className="homeContainer">
-        <img className="trainPic" src="/images/RDRGoodTrainPic.png" alt="Trains run through Main Street an average of 30 times a day!" />
-        <h1 className="colorHeader">Rainy Day Resale</h1>
-        <div className="alertBox">
-          <p className="alert">We are reopened and doing our best to keep you safe while shopping!</p>
-          <p className="alert">Please come see us soon, we've missed you!</p>
-        </div>
-        <div className="hours">
-          <p>HOURS:</p>
-          <ul>
-            <li>Sunday - 12pm to 4pm</li>
-            <li>Monday - 10am to 6pm</li>
-            <li>Tuesday - 10am to 6pm</li>
-            <li>Wednesday - 10am to 6pm</li>
-            <li>Thursday - 10am to 6pm</li>
-            <li>Friday - 10am to 6pm</li>
-            <li>Saturday - 10am to 6pm</li>
-          </ul>
-        </div>
-        <p>Come check out our amazing selection of misses, plus-size and juniors clothing and accessories.</p>
-        <p>We offer fabulous prices on the brands you love! New items arriving daily.</p>
-        <div className="facebook">
-          <FontAwesomeIcon className="icon" icon={faFacebookSquare} />
-          <a href="https://www.facebook.com/RainyDayResale">Come check us out on Facebook!</a>
-          <FontAwesomeIcon className="icon" icon={faUmbrella} />
-        </div>
-        <img className="umbPic" src="/images/RDRUmbrellas.png" alt="A few of our gorgeous Galleria Umbrellas!" />
-      </div>
+      <div className="navSpace"></div>
+      <Route 
+        path="/"
+        component={Home}
+        exact
+      />
+      <Route 
+        path="/ladies"
+        component={Ladies}
+      />
+      <Route 
+        path="/juniors"
+        component={Juniors}
+      />
+      <Route 
+        path="/accessories"
+        component={Accessories}
+      />
+      <Route 
+        path="/studio"
+        component={Studio}
+      />
+      <Route 
+        path="/consignors"
+        component={Consignors}
+      />
+      <Route 
+        path="/community"
+        component={Community}
+      />
+      <Route 
+        path="/contact"
+        component={Contact}
+      />
+      <div className="footerSpace"></div>
       <Footer />
     </div>
   );
