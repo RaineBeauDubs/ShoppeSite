@@ -52,7 +52,6 @@ function App() {
         path="/contact"
         component={Contact}
       />
-      <div className="footerSpace"></div>
       <Footer />
     </div>
   );
