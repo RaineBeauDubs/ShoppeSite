@@ -1,0 +1,16 @@
+.consignorsContainer {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.colorSubHeading {
+  color: rgb(174, 64, 165);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.consInfo {
+  text-align: left;;
+}
