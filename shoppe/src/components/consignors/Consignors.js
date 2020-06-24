@@ -20,6 +20,9 @@ function Consignors() {
         <p>We use a 60-day contract with a 50/50 split</p>
         <p>PLUS you get 10% off of your purchase when you use your consignor credit in-store!!</p>
       </div>
+      <div className="consPDF">
+        
+      </div>
     </div>
   );
 }
