@@ -4,7 +4,7 @@ import './community.css';
 function Community() {
   return (
     <div className="communityContainer">
-      <p>I will be the Community page! :D</p>
+      <h2 className="colorHeader">Community</h2>
     </div>
   );
 }
