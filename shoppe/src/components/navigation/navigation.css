@@ -27,3 +27,8 @@
 .navLink:hover {
   color: black;
 }
+
+.activeNavLink {
+  color: black;
+  font-weight: bold;
+}
