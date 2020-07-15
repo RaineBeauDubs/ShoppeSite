@@ -12,3 +12,15 @@
 .jwlPic {
   border-radius: 1rem;
 }
+
+.accDesc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accTitle {
+  color: rgb(174, 64, 165);
+  font-size: 1.35rem;
+  font-weight: bold;
+}
