@@ -24,3 +24,8 @@
   font-size: 1.35rem;
   font-weight: bold;
 }
+
+.shoePic {
+  height: 300px;
+  border-radius: 1rem;
+}
