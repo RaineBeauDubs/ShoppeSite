@@ -11,18 +11,35 @@
 
 .jwlPic {
   border-radius: 1rem;
+  margin-top: 1rem;
 }
 
 .accDesc {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1rem;
 }
 
 .accTitle {
   color: rgb(174, 64, 165);
   font-size: 1.35rem;
   font-weight: bold;
+}
+
+.shoesFlexCont {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.accFlexDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
 }
 
 .shoePic {
@@ -34,4 +51,5 @@
   border-radius: 1rem;
   width: 18%;
   border: 0.3rem solid rgb(174, 64, 165);
+  margin-bottom: 1.5rem;
 }
