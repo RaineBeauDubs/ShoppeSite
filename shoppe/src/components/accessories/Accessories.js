@@ -45,6 +45,33 @@ function Accessories() {
         <h3 className="accTitle">Galleria Umbrellas</h3>
         <p>- gorgeous, sturdy, collapsable (or inverted!) umbrellas from Galleria</p>
       </div>
+      <div className="jewelryImgCont">
+      <img
+          className="umbPic"
+          src="/images/AccUmb5.png"
+          alt="A gorgeous Galleria Umbrella"
+        />
+        <img
+          className="umbPic"
+          src="/images/AccUmb4.png"
+          alt="A gorgeous Galleria Umbrella"
+        />
+        <img
+          className="umbPic"
+          src="/images/AccUmb1.png"
+          alt="A gorgeous Galleria Umbrella"
+        />
+        <img
+          className="umbPic"
+          src="/images/AccUmb2.png"
+          alt="A gorgeous Galleria Umbrella"
+        />
+        <img
+          className="umbPic"
+          src="/images/AccUmb3.png"
+          alt="A gorgeous Galleria Umbrella"
+        />
+      </div>
     </div>
   );
 }

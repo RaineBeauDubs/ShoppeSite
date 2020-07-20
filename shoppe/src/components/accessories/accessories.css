@@ -29,3 +29,9 @@
   height: 300px;
   border-radius: 1rem;
 }
+
+.umbPic {
+  border-radius: 1rem;
+  width: 18%;
+  border: 0.3rem solid rgb(174, 64, 165);
+}
