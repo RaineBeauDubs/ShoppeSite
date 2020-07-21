@@ -1,0 +1,36 @@
+.studioContainer {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.colorSubHeader {
+  color: rgb(174, 64, 165);
+  font-size: 2.3rem;
+}
+
+.stuPicWide {
+  width: 100%;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  border: 0.3rem solid rgb(174, 64, 165);
+  box-sizing: border-box;
+
+}
+
+.stuFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stuFlex p {
+  font-size: 2rem;
+  width: 33%;
+}
+
+.stuPicTall {
+  width: 30%;
+  border-radius: 1rem;
+  border: 0.3rem solid rgb(174, 64, 165);
+  box-sizing: border-box;
+}

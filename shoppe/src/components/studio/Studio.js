@@ -5,13 +5,13 @@ function Studio() {
   return (
     <div className="studioContainer">
       <h2 className="colorHeader">Utopia Studio</h2>
-      <h3>Everyone Can Paint!</h3>
+      <h3 className="colorSubHeader">Everyone Can Paint!</h3>
       <img
         className="stuPicWide"
         src="/images/StuPicWide1.png"
         alt="Super fun painting party"
       />
-      <div>
+      <div className="stuFlex">
         <img
           className="stuPicTall"
           src="/images/StuPicTall1.jpg"
