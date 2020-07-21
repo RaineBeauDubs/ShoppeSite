@@ -16,7 +16,7 @@
 
 .accDesc {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   margin: 1rem;
 }
@@ -32,6 +32,10 @@
   width: 100%;
   justify-content: space-evenly;
   padding: 2rem 0;
+}
+
+.centerFlex {
+  width: 30%
 }
 
 .accFlexDesc {
