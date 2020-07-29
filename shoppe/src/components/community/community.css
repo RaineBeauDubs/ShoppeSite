@@ -2,3 +2,25 @@
   max-width: 1065px;
   margin: 0 auto;
 }
+
+.comTopFlexCont {
+  width: 100%;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.comTopFlexSec {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.comTopFlexPic {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.comTopFlexDesc {
+  width: 40%
+}
