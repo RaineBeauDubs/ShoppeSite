@@ -5,11 +5,10 @@ function Community() {
   return (
     <div className="communityContainer">
       <h2 className="colorHeader">Community</h2>
-      <img
-          className="conSign"
-          src="/images/ConConstructionSign.png"
-          alt="Where we're located in LaGrange"
-        />
+      {/* Link to LG Main Street page
+      link to barber shop social media (make quick bbs site?)
+      link to main street social media 
+      Maybe yearly events? */}
     </div>
   );
 }

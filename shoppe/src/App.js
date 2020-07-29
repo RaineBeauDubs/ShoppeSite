@@ -19,36 +19,36 @@ function App() {
         <Navigation />
       </div>
       <div className="navSpace"></div>
-      <Route 
+      <Route
         path="/"
         component={Home}
         exact
       />
-      <Route 
+      <Route
         path="/ladies"
         component={Ladies}
       />
-      <Route 
+      <Route
         path="/juniors"
         component={Juniors}
       />
-      <Route 
+      <Route
         path="/accessories"
         component={Accessories}
       />
-      <Route 
+      <Route
         path="/studio"
         component={Studio}
       />
-      <Route 
+      <Route
         path="/consignors"
         component={Consignors}
       />
-      <Route 
+      <Route
         path="/community"
         component={Community}
       />
-      <Route 
+      <Route
         path="/contact"
         component={Contact}
       />
