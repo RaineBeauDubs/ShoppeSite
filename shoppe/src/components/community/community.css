@@ -1,4 +1,60 @@
-.conSign {
-  opacity: 60%;
-  margin: 5rem 0;
+.communityContainer {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+#comColHeader {
+  color: #8D2424;
+}
+
+#comColSubHeader {
+  color: #8D2424;
+}
+
+.comTopFlexCont {
+  width: 100%;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.comTopFlexSec {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #8D2424;
+  color: white;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+.comTopFlexPic {
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.comTopFlexDesc {
+  width: 55%;
+  font-size: 1.6rem;
+
+}
+
+.comFBLink {
+  color: white;
+  font-weight: bold;
+}
+
+.comBottomCont {
+  background: #8D2424;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+
+.comBottomPic {
+  width: 97%;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
 }
