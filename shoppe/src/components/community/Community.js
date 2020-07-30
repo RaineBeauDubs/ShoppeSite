@@ -16,6 +16,7 @@ function Community() {
           <div className="comTopFlexDesc">
             <p>Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /></p>
             <a
+              onclick="window.open(this.href,'_blank');return false;"
               href="https://www.facebook.com/DowntownBarberKY"
               className="comFBLink">
               Check them out on Facebook here!
@@ -26,6 +27,7 @@ function Community() {
           <div className="comTopFlexDesc">
           <p>La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /></p>
             <a
+              onclick="window.open(this.href,'_blank');return false;"
               href="https://www.facebook.com/lagrangefarmersmkt"
               className="comFBLink">
               Check them out on Facebook here!
