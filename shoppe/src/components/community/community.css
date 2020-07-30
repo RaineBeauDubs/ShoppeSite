@@ -3,6 +3,14 @@
   margin: 0 auto;
 }
 
+#comColHeader {
+  color: #8D2424;
+}
+
+#comColSubHeader {
+  color: #8D2424;
+}
+
 .comTopFlexCont {
   width: 100%;
   justify-content: space-between;
@@ -13,7 +21,13 @@
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #8D2424;
+  color: white;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
 }
 
 .comTopFlexPic {
@@ -22,7 +36,14 @@
 }
 
 .comTopFlexDesc {
-  width: 40%
+  width: 55%;
+  font-size: 1.6rem;
+
+}
+
+.comFBLink {
+  color: white;
+  font-weight: bold;
 }
 
 .comBottomCont {

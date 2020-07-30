@@ -4,8 +4,8 @@ import './community.css';
 function Community() {
   return (
     <div className="communityContainer">
-      <h2 className="colorHeader">Community</h2>
-      <h3 className="colorSubHeader">Make sure to check out all these other awesome places in our town!</h3>
+      <h2 className="colorHeader" id="comColHeader">Community</h2>
+      <h3 className="colorSubHeader" id="comColSubHeader">Make sure to check out all these other awesome places in our town!</h3>
       <div className="comTopFlexCont">
         <div className="comTopFlexSec">
           <img
