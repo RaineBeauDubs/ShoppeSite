@@ -13,22 +13,26 @@ function Community() {
             src="/images/ComDowntownBarber.jpg"
             alt="Downtown Barber is open for business!"
           />
-          <p className="comTopFlexDesc">Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /><br />
+          <div className="comTopFlexDesc">
+            <p>Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /></p>
             <a
               href="https://www.facebook.com/DowntownBarberKY"
               target="_blank"
               className="comFBLink">
               Check them out on Facebook here!
-            </a></p>
+            </a>
+          </div>
         </div>
         <div className="comTopFlexSec">
-          <p className="comTopFlexDesc">La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /><br />
+          <div className="comTopFlexDesc">
+          <p>La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /></p>
             <a
               href="https://www.facebook.com/lagrangefarmersmkt"
               target="_blank"
               className="comFBLink">
               Check them out on Facebook here!
-            </a></p>
+            </a>
+            </div>
           <img
             className="comTopFlexPic"
             src="/images/ComLGFMPoster.png"
@@ -67,10 +71,10 @@ function Community() {
           />
         </div>
         <img
-            className="comBottomPic"
-            src="/images/ComLGMSMap.png"
-            alt="La Grange Street information"
-          />
+          className="comBottomPic"
+          src="/images/ComLGMSMap.png"
+          alt="La Grange Street information"
+        />
       </div>
     </div>
   );
