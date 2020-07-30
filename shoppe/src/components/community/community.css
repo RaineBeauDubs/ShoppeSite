@@ -38,6 +38,10 @@
 .comTopFlexDesc {
   width: 55%;
   font-size: 1.6rem;
+}
+
+.comTopFlexDesc p {
+  font-size: 1.6rem;
 
 }
 
