@@ -81,8 +81,6 @@ function Community() {
 }
 
 // Add link to shop site com, add ghost tour info
-// move utopia studio to community, smaller thing, one pic
-// switch com w/contact us in nav bar
-// 
+// move utopia studio to community, smaller thing, one pic 
 
 export default Community;
