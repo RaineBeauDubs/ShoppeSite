@@ -14,7 +14,7 @@
 .comTopFlexCont {
   width: 100%;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .comTopFlexSec {
@@ -53,7 +53,7 @@
   background: #8D2424;
   border-radius: 1rem;
   padding: 0.5rem 0;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .comBottomPic {
