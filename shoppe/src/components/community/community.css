@@ -14,7 +14,7 @@
 .comTopFlexCont {
   width: 100%;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .comTopFlexSec {
@@ -42,19 +42,19 @@
 
 .comTopFlexDesc p {
   font-size: 1.6rem;
-
 }
 
 .comFBLink {
   color: white;
   font-weight: bold;
+  font-size: 1.6rem;
 }
 
 .comBottomCont {
   background: #8D2424;
   border-radius: 1rem;
   padding: 0.5rem 0;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .comBottomPic {

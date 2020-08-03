@@ -25,11 +25,11 @@ const Navigation = () => {
         <NavLink activeClassName="activeNavLink" className="navLink" to="/consignors">
           <h3>Consignors</h3>
         </NavLink>
-        <NavLink activeClassName="activeNavLink" className="navLink" to="/community">
-          <h3>Community</h3>
-        </NavLink>
         <NavLink activeClassName="activeNavLink" className="navLink" to="/contact">
           <h3>Contact Us</h3>
+        </NavLink>
+        <NavLink activeClassName="activeNavLink" className="navLink" to="/community">
+          <h3>Community</h3>
         </NavLink>
       </div>
     </div>
