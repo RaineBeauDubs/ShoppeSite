@@ -14,7 +14,7 @@ function Community() {
             alt="Downtown Barber is open for business!"
           />
           <div className="comTopFlexDesc">
-            <p>Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /></p>
+            <p>Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /><br /></p>
             <a
               href="https://www.facebook.com/DowntownBarberKY"
               className="comFBLink">
@@ -24,13 +24,13 @@ function Community() {
         </div>
         <div className="comTopFlexSec">
           <div className="comTopFlexDesc">
-          <p>La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /></p>
+            <p>La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /><br /></p>
             <a
               href="https://www.facebook.com/lagrangefarmersmkt"
               className="comFBLink">
               Check them out on Facebook here!
             </a>
-            </div>
+          </div>
           <img
             className="comTopFlexPic"
             src="/images/ComLGFMPoster.png"
@@ -38,19 +38,34 @@ function Community() {
           />
         </div>
         <div className="comTopFlexSec">
-        <img
+          <img
             className="comTopFlexPic"
             src="/images/ComUtopia.png"
             alt="La Grange Farmers' Market Poster by Stephen Winter"
           />
           <div className="comTopFlexDesc">
-          <p> Utopia Studio: Call or text (502) 758-0425 for more info or to book an event for Karen Leightty's fine art, sign up for private art classes, schedule a painting party, or arrange a professional photography session.<br /></p>
+            <p> Utopia Studio: Call or text (502) 758-0425 for more info or to book an event for Karen Leightty's fine art, sign up for private art classes, schedule a painting party, or arrange a professional photography session.<br /><br /></p>
             <a
               href="https://www.facebook.com/utopiastudiollc"
               className="comFBLink">
               Check them out on Facebook here!
             </a>
-            </div>
+          </div>
+        </div>
+        <div className="comTopFlexSec">
+          <div className="comTopFlexDesc">
+            <p>You can learn all about haunted La Grange on this 2-hour candlelit walking tour. Proceeds fund the Facade Grant Program of La Grange, KY, helping to preserve historic buildings in town.<br />Due to the potential spirit activity, all 100% genuine, tours are not recommended for children under 12.<br /><br /></p>
+            <a
+              href="https://www.lagrangemainstreet.org/spirits-of-lagrange-ghost-tour.html"
+              className="comFBLink">
+              Check out their website here!
+            </a>
+          </div>
+          <img
+            className="comTopFlexPic"
+            src="/images/ComGhostTours.png"
+            alt="La Grange Farmers' Market Poster by Stephen Winter"
+          />
         </div>
       </div>
       <div className="comBottomCont">
@@ -88,12 +103,14 @@ function Community() {
           src="/images/ComLGMSMap.png"
           alt="La Grange Street information"
         />
+        <a
+          href="https://www.lagrangemainstreet.org/"
+          className="comFBLink">
+          Check out the La Grange, KY Main Street Program website here!
+        </a>
       </div>
     </div>
   );
 }
-
-// Add link to shop site com, add ghost tour info
-// move utopia studio to community, smaller thing, one pic 
 
 export default Community;
