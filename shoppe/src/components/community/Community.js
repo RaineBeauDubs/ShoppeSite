@@ -16,7 +16,6 @@ function Community() {
           <div className="comTopFlexDesc">
             <p>Downtown Barber is located at 107 North First Street and can also be accessed from Main Street through Rainy Day Resale.<br />Fantastic, experienced barbers can be found here, performing their hair magic on all!<br /></p>
             <a
-              onclick="window.open(this.href,'_blank');return false;"
               href="https://www.facebook.com/DowntownBarberKY"
               className="comFBLink">
               Check them out on Facebook here!
@@ -27,7 +26,6 @@ function Community() {
           <div className="comTopFlexDesc">
           <p>La Grange Farmers' Market & Artisans is a Kentucky Proud market and a La Grange Kentucky Main Street Event.<br />Open on the courthouse lawn (100 West Main Street) from 9AM to 1PM on Saturdays during Farmers' Market season!<br /></p>
             <a
-              onclick="window.open(this.href,'_blank');return false;"
               href="https://www.facebook.com/lagrangefarmersmkt"
               className="comFBLink">
               Check them out on Facebook here!
@@ -38,6 +36,21 @@ function Community() {
             src="/images/ComLGFMPoster.png"
             alt="La Grange Farmers' Market Poster by Stephen Winter"
           />
+        </div>
+        <div className="comTopFlexSec">
+        <img
+            className="comTopFlexPic"
+            src="/images/ComUtopia.png"
+            alt="La Grange Farmers' Market Poster by Stephen Winter"
+          />
+          <div className="comTopFlexDesc">
+          <p> Utopia Studio: Call or text (502) 758-0425 for more info or to book an event for Karen Leightty's fine art, sign up for private art classes, schedule a painting party, or arrange a professional photography session.<br /></p>
+            <a
+              href="https://www.facebook.com/utopiastudiollc"
+              className="comFBLink">
+              Check them out on Facebook here!
+            </a>
+            </div>
         </div>
       </div>
       <div className="comBottomCont">
