@@ -1,5 +1,10 @@
+.homeContainer {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
 .trainPic {
-  width: 1065px;
+  width: 95%;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
@@ -49,7 +54,7 @@ p {
 }
 
 .umbPicHome {
-  width: 1065px;
+  width: 95%;
   border-radius: 1rem;
   margin: 0.5rem 0;
 }
