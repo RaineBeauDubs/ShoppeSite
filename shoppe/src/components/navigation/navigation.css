@@ -34,7 +34,7 @@
   font-weight: bold;
 }
 
-@media (max-width:1100px) {
+@media (max-width:900px) {
   .navBar {
     padding: 1rem;
   }
@@ -45,6 +45,22 @@
   
   .navLink {
     font-size: 0.9rem;
-    margin-left: 1rem;
+    margin-left: 0.9rem;
+  }
+}
+
+@media (max-width:700px) {
+  .navBar {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+
+  .navBar h1 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navLink {
+    margin-left: 0.7rem;
   }
 }
