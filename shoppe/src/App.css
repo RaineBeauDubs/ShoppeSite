@@ -13,7 +13,7 @@
 
 @media (max-width:900px) {
   .App {
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .navSpace {
