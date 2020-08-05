@@ -4,7 +4,6 @@ import Home from './components/home/Home';
 import Ladies from './components/ladies/Ladies';
 import Juniors from './components/juniors/Juniors';
 import Accessories from './components/accessories/Accessories';
-import Studio from './components/studio/Studio';
 import Consignors from './components/consignors/Consignors';
 import Community from './components/community/Community';
 import Contact from './components/contact/Contact';
@@ -35,10 +34,6 @@ function App() {
       <Route
         path="/accessories"
         component={Accessories}
-      />
-      <Route
-        path="/studio"
-        component={Studio}
       />
       <Route
         path="/consignors"

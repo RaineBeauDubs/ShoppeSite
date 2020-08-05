@@ -10,3 +10,13 @@
 .navSpace {
   height: 5.5rem;
 }
+
+@media (max-width:900px) {
+  .App {
+    /* border: 2px solid red; */
+  }
+
+  .navSpace {
+    height: 4rem;
+  }
+}

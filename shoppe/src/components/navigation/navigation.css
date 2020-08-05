@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1033px;
+  max-width: 1065px;
   background: white;
   position: fixed;
+  box-sizing: border-box;
 }
 
 .navBar h1 {
@@ -31,4 +32,35 @@
 .activeNavLink {
   color: black;
   font-weight: bold;
+}
+
+@media (max-width:900px) {
+  .navBar {
+    padding: 1rem;
+  }
+
+  .navBar h1 {
+    font-size: 1.5rem;
+  }
+  
+  .navLink {
+    font-size: 0.9rem;
+    margin-left: 0.9rem;
+  }
+}
+
+@media (max-width:700px) {
+  .navBar {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+
+  .navBar h1 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navLink {
+    margin-left: 0.7rem;
+  }
 }
